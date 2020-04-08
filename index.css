@@ -1,0 +1,176 @@
+body {
+  margin: 0px;
+  max-width: 1260px;
+  max-height: 940px;
+}
+
+.main {
+  padding: 0px 160px;
+}
+
+/* title */
+
+.title {
+  padding-top: 53px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.logo_detail_btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn-m {
+  margin: 0px 10px;
+}
+
+.btn_line {
+  height: 25px;
+  border-radius: 3px;
+  border: solid 1px #778a50;
+  display: flex;
+  align-items: center;
+}
+
+.btn_text{
+  margin: 0px 6px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #778a50;
+}
+
+.line {
+  width: 1px;
+  height: 25px;
+  background-color: #778a50;
+}
+
+/* navbar */
+ul li {
+  display:inline;
+}
+
+.navbar {
+  border-radius: 3px;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.navbar-nav {
+  padding: 0px;
+  margin: 20px 0px;
+}
+
+.nav-item {
+  margin: 16px 30px;
+}
+
+/* picture */
+.picture_vegetable {
+  margin-bottom: 15px;
+}
+
+/* vegetable and contact */
+.vegetable_and_contact{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+
+.title_box {
+  height: 45px;
+  border-radius: 3px;
+  margin: 15px 0px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.vegetable, .contact {
+  width: 445px;
+}
+
+.vegetable_col_picture {
+  display: flex;
+  justify-content: space-between;
+}
+
+.veg_img {
+  margin: 0px;
+}
+
+.contact_col {
+  padding: 15px 16px;
+  height: 110px;
+}
+
+.contact_text {
+  font-family: Arial;
+  font-size: 12px;
+  color: #7d7d7d;
+  margin: 0px;
+}
+
+.contact_email {
+  font-family: Arial;
+  font-size: 12px;
+  color: #7d7d7d;
+  margin-bottom: 6px;
+}
+
+hr {
+  margin: 16px 0px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+.footer_text {
+  font-family: Arial;
+  font-size: 12px;
+  color: #edf2c5;
+  display: flex;
+  align-items: center;
+}
+
+/* background and text */
+
+.bg-light_green{
+  background-color: #edf2c5;
+}
+
+.bg-light_light_green{
+  background-color: #f7fbda;
+}
+
+.bg-grass_green{
+  background-color: #778a50;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 44px;
+  font-weight: 900;
+  color: #778a50;
+}
+
+.text-light_green {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  color: #edf2c5;
+  margin: 0px;
+}
